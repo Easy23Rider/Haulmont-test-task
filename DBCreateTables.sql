@@ -1,0 +1,3 @@
+CREATE TABLE patient (ID INT NOT NULL PRIMARY KEY, name VARCHAR(255), surname VARCHAR(255), patronymic VARCHAR(255), phone DECIMAL(255));
+CREATE TABLE doctor (ID INT NOT NULL PRIMARY KEY, name VARCHAR(255), surname VARCHAR(255), patronymic VARCHAR(255), specialization VARCHAR(255));
+CREATE TABLE recipe (ID INT NOT NULL PRIMARY KEY, description VARCHAR(255), patient VARCHAR(255), doctor VARCHAR(255), creationDate VARCHAR(255), validity VARCHAR(255), priority VARCHAR(255));
